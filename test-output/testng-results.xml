@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-26T20:28:49 AST" name="Default suite" finished-at="2024-10-26T20:28:53 AST" duration-ms="4385">
+    <groups>
+    </groups>
+    <test started-at="2024-10-26T20:28:49 AST" name="Default test" finished-at="2024-10-26T20:28:53 AST" duration-ms="4385">
+      <class name="myTestCases">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:49 AST" name="mySetup" finished-at="2024-10-26T20:28:50 AST" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="login()[pri:1, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:50 AST" name="login" finished-at="2024-10-26T20:28:51 AST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="customerName()[pri:2, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:51 AST" name="customerName" finished-at="2024-10-26T20:28:51 AST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerName -->
+        <test-method signature="deposit()[pri:3, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:51 AST" name="deposit" finished-at="2024-10-26T20:28:53 AST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method signature="withdraw()[pri:4, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:53 AST" name="withdraw" finished-at="2024-10-26T20:28:53 AST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdraw -->
+        <test-method signature="balance()[pri:5, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:53 AST" name="balance" finished-at="2024-10-26T20:28:53 AST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balance -->
+      </class> <!-- myTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
