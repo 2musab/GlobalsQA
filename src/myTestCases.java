@@ -29,6 +29,7 @@ public class myTestCases {
 
 		driver.get("https://globalsqa.com/angularJs-protractor/BankingProject/#/login");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().window().maximize();
 
 	}
 
@@ -111,13 +112,29 @@ public class myTestCases {
 
 	}
 	
-	@Test (priority = 5)
+	@Test(priority = 5)
 	public void balance() {
 		
-		String actualBalance = driver.findElement(By.cssSelector("body > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > strong:nth-child(2)")).getText();
-		String expectedBalance = "0";
+		String name = driver.findElement(By.cssSelector(".fontBig.ng-binding")).getText();
+		System.out.println(name);
 		
-		Assert.assertEquals(actualBalance, expectedBalance);
+		
+		
+		if (name.equals("Hermoine Granger")) {
+			
+			String hermoineActualBalance = driver.findElement(By.cssSelector("body > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > strong:nth-child(2)")).getText();
+			String hermoineExpectedBalance = "5096";
+			
+			Assert.assertEquals(hermoineActualBalance, hermoineExpectedBalance);
+		}
+		
+		else {
+			String actualBalance = driver.findElement(By.cssSelector("body > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > strong:nth-child(2)")).getText();
+			String expectedBalance = "0";
+			
+			Assert.assertEquals(actualBalance,expectedBalance);
+		}
+
 	}
 
 }

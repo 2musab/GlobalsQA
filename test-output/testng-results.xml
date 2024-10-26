@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-26T20:28:49 AST" name="Default suite" finished-at="2024-10-26T20:28:53 AST" duration-ms="4385">
+  <suite started-at="2024-10-26T21:12:49 AST" name="Default suite" finished-at="2024-10-26T21:12:53 AST" duration-ms="4397">
     <groups>
     </groups>
-    <test started-at="2024-10-26T20:28:49 AST" name="Default test" finished-at="2024-10-26T20:28:53 AST" duration-ms="4385">
+    <test started-at="2024-10-26T21:12:49 AST" name="Default test" finished-at="2024-10-26T21:12:53 AST" duration-ms="4397">
       <class name="myTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:49 AST" name="mySetup" finished-at="2024-10-26T20:28:50 AST" duration-ms="1294" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTestCases@1d71006f]" started-at="2024-10-26T21:12:49 AST" name="mySetup" finished-at="2024-10-26T21:12:50 AST" duration-ms="1181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="login()[pri:1, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:50 AST" name="login" finished-at="2024-10-26T20:28:51 AST" duration-ms="502" status="PASS">
+        <test-method signature="login()[pri:1, instance:myTestCases@1d71006f]" started-at="2024-10-26T21:12:50 AST" name="login" finished-at="2024-10-26T21:12:51 AST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="customerName()[pri:2, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:51 AST" name="customerName" finished-at="2024-10-26T20:28:51 AST" duration-ms="478" status="PASS">
+        <test-method signature="customerName()[pri:2, instance:myTestCases@1d71006f]" started-at="2024-10-26T21:12:51 AST" name="customerName" finished-at="2024-10-26T21:12:51 AST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerName -->
-        <test-method signature="deposit()[pri:3, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:51 AST" name="deposit" finished-at="2024-10-26T20:28:53 AST" duration-ms="1390" status="PASS">
+        <test-method signature="deposit()[pri:3, instance:myTestCases@1d71006f]" started-at="2024-10-26T21:12:51 AST" name="deposit" finished-at="2024-10-26T21:12:52 AST" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deposit -->
-        <test-method signature="withdraw()[pri:4, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:53 AST" name="withdraw" finished-at="2024-10-26T20:28:53 AST" duration-ms="658" status="PASS">
+        <test-method signature="withdraw()[pri:4, instance:myTestCases@1d71006f]" started-at="2024-10-26T21:12:52 AST" name="withdraw" finished-at="2024-10-26T21:12:53 AST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdraw -->
-        <test-method signature="balance()[pri:5, instance:myTestCases@1d71006f]" started-at="2024-10-26T20:28:53 AST" name="balance" finished-at="2024-10-26T20:28:53 AST" duration-ms="27" status="PASS">
+        <test-method signature="balance()[pri:5, instance:myTestCases@1d71006f]" started-at="2024-10-26T21:12:53 AST" name="balance" finished-at="2024-10-26T21:12:53 AST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- balance -->
